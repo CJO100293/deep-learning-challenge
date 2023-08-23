@@ -94,3 +94,4 @@ Now that you're finished with your analysis in Google Colab, you need to get you
 - ANSWER: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 
 ## **Sources:**
+- The basis for the code used in the "Drop the non-beneficial ID columns, 'EIN' and 'NAME'" section of "AlphabetSoupCharity_Optimization.ipynb" was found from https://blog.hubspot.com/website/drop-multiple-columns-pandas
