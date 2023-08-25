@@ -95,3 +95,5 @@ Now that you're finished with your analysis in Google Colab, you need to get you
 
 ## **Sources:**
 - The basis for the code used in the "Drop the non-beneficial ID columns, 'EIN' and 'NAME'" section of "AlphabetSoupCharity_Optimization.ipynb" was found from https://blog.hubspot.com/website/drop-multiple-columns-pandas
+- The basis for the code used in the "Choose a cutoff value and create a list of application types to be replaced. use the variable name application_types_to_replace" section of "AlphabetSoupCharity_Optimization.ipynb" was found from https://github.com/ItsGreyedOut/Deep-Learning-Charity-Funding-Predictor/blob/main/Starter_Code.ipynb
+- The basis for the code used in the "Convert categorical data to numeric with pd.get_dummies" section of "AlphabetSoupCharity_Optimization.ipynb" was found from https://pandas.pydata.org/docs/reference/api/pandas.get_dummies.html and https://stackoverflow.com/questions/55333191/does-get-dummies-function-change-the-dtype-of-a-column.
