@@ -75,21 +75,6 @@ Now that you're finished with your analysis in Google Colab, you need to get you
 2. Move them into your Deep Learning Challenge directory in your local repository.
 3. Push the added files to GitHub.
 
-## Neural Network Model Report
-### **Overview of the Analysis**
- - ANSWER: Explain the purpose of this analysis.
-
-### **Results**
-- Data Preprocessing: ANSWER: Using bulleted lists and images to support your answers, address the following questions:
-	- ANSWER: What variable(s) are the target(s) for your model?
-	- ANSWER: What variable(s) are the features for your model?
-	- ANSWER: What variable(s) should be removed from the input data because they are neither targets nor features?
-
-- Compiling, Training, and Evaluating the Model
-	- ANSWER: How many neurons, layers, and activation functions did you select for your neural network model, and why?
-	- ANSWER: Were you able to achieve the target model performance?
-	- ANSWER: What steps did you take in your attempts to increase model performance?
-
 ### **Summary**
 - ANSWER: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 
