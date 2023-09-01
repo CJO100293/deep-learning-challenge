@@ -11,7 +11,7 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 - **INCOME_AMT**—Income classification
 - **SPECIAL_CONSIDERATIONS**—Special considerations for application
 - **ASK_AMT**—Funding amount requested
-- **IS_SUCCESSFUL**—Was the money used effectively
+- **IS_SUCCESSFUL**—Was the money used effectively  \
 
 ### **Step 1: Preprocess the Data**
 1. Read in the charity_data.csv to a Pandas DataFrame, and be sure to identify the following in your dataset:
@@ -23,7 +23,7 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 5. Use the number of data points for each unique value to pick a cutoff point to bin "rare" categorical variables together in a new value, Other, and then check if the binning was successful.
 6. Use pd.get_dummies() to encode categorical variables.
 7. Split the preprocessed data into a features array, X, and a target array, y. Use these arrays and the train_test_split function to split the data into training and testing datasets.
-8. Scale the training and testing features datasets by creating a StandardScaler instance, fitting it to the training data, then using the transform function.
+8. Scale the training and testing features datasets by creating a StandardScaler instance, fitting it to the training data, then using the transform function.  \
 
 ### **Step 2: Compile, Train, and Evaluate the Model**
 Using your knowledge of TensorFlow, you’ll design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup-funded organization will be successful based on the features in the dataset. You’ll need to think about how many inputs there are before determining the number of neurons and layers in your model. Once you’ve completed that step, you’ll compile, train, and evaluate your binary classification model to calculate the model’s loss and accuracy.
@@ -36,7 +36,7 @@ Using your knowledge of TensorFlow, you’ll design a neural network, or deep le
 7. Compile and train the model.
 8. Create a callback that saves the model's weights every five epochs.
 9. Evaluate the model using the test data to determine the loss and accuracy.
-10. Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity.h5.
+10. Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity.h5.  \
 
 ### **Step 3: Optimize the Model**
 Using your knowledge of TensorFlow, optimize your model to achieve a target predictive accuracy higher than 75%. Use any or all of the following methods to optimize your model: 
@@ -53,7 +53,7 @@ Note: If you make at least three attempts at optimizing your model, you will not
 2. Import your dependencies and read in the charity_data.csv to a Pandas DataFrame.
 3. Preprocess the dataset as you did in Step 1. Be sure to adjust for any modifications that came out of optimizing the model.
 4. Design a neural network model, and be sure to adjust for modifications that will optimize the model to achieve higher than 75% accuracy.
-5. Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity_Optimization.h5.
+5. Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity_Optimization.h5.  \
 
 ### **Step 4: Write a Report on the Neural Network Model**
 For this part of the assignment, you’ll write a report on the performance of the deep learning model you created for Alphabet Soup. The report should contain the following:
@@ -67,29 +67,29 @@ For this part of the assignment, you’ll write a report on the performance of t
 	- How many neurons, layers, and activation functions did you select for your neural network model, and why?
 	- Were you able to achieve the target model performance?
 	- What steps did you take in your attempts to increase model performance?
-3. **Summary:** Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+3. **Summary:** Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.  \
 
 ### **Step 5: Copy Files Into Your Repository**
 Now that you're finished with your analysis in Google Colab, you need to get your files into your repository for final submission.
 1. Download your Colab notebooks to your computer.
 2. Move them into your Deep Learning Challenge directory in your local repository.
-3. Push the added files to GitHub.
+3. Push the added files to GitHub.  \
 
 ### **Summary**
-- ANSWER: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+- ANSWER: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.  \
 
 ## **Files:**
-**README.md** - This readme file.
-**Report.rtf** - This file contains our report from "Step 4: Write a Report on the Neural Network Model".
-**AlphabetSoupCharity_Optimization.ipynb** - This is the jupyter notebook used to attempt to use deep learning and neural networks to evaluate whether applicants would be funded by the non-profit organization Alphabet Soup. This is doing so while dropping the "EIN" and "NAME" columns from the model. This particular model was only able to achieve a maximum target predictive accuracy of 74.01% across 6 attempts using various combinations of the number of hidden layers, neurons and activation functions  
-**AlphabetSoupCharity_Optimization_final.ipynb** - This jupyter notebook was used to attempt to use deep learning and neural networks to evaluate whether applicants would be funded by the non-profit organization Alphabet Soup after only dropping the "EIN" column in the model but keeping the "NAME" column. This particular model was able to achieve the target predictive accuracy of above 75% and with a final accuracy of 79.94%.  
-**output_data/AlphabetSoupCharity_Attempt_1.h5** - exported HDF5 file of results from attempt 1 of training the model in the "AlphabetSoupCharity_Optimization.ipynb" jupyter notebook.
-**output_data/AlphabetSoupCharity_Attempt_2.h5** - exported HDF5 file of results from attempt 2 of training the model in the "AlphabetSoupCharity_Optimization.ipynb" jupyter notebook after removing the "EIN" and "NAME" columns from the model.
-**output_data/AlphabetSoupCharity_Attempt_3.h5** - exported HDF5 file of results from attempt 3 of training the model in the "AlphabetSoupCharity_Optimization.ipynb" jupyter notebook after removing the "EIN" and "NAME" columns from the model.
-**output_data/AlphabetSoupCharity_Attempt_4.h5** - exported HDF5 file of results from attempt 4 of training the model in the "AlphabetSoupCharity_Optimization.ipynb" jupyter notebook after removing the "EIN" and "NAME" columns from the model.
-**output_data/AlphabetSoupCharity_Attempt_5.h5** - exported HDF5 file of results from attempt 5 of training the model in the "AlphabetSoupCharity_Optimization.ipynb" jupyter notebook after removing the "EIN" and "NAME" columns from the model.
-**output_data/AlphabetSoupCharity_Attempt_6.h5** - exported HDF5 file of results from attempt 6 of training the model in the "AlphabetSoupCharity_Optimization.ipynb" jupyter notebook after removing the "EIN" and "NAME" columns from the model.
-**output_data/AlphabetSoupCharity_Final.h5** - exported HDF5 file of results of training the model in the "AlphabetSoupCharity_Optimization-Final.ipynb" jupyter notebook after removing the "EIN" column from the model but keeping the "NAME" column. These final results achieved the target predictive accuracy of above 75%.
+**README.md** - This readme file.  \
+**Report.rtf** - This file contains our report from "Step 4: Write a Report on the Neural Network Model".  \
+**AlphabetSoupCharity_Optimization.ipynb** - This is the jupyter notebook used to attempt to use deep learning and neural networks to evaluate whether applicants would be funded by the non-profit organization Alphabet Soup. This is doing so while dropping the "EIN" and "NAME" columns from the model. This particular model was only able to achieve a maximum target predictive accuracy of 74.01% across 6 attempts using various combinations of the number of hidden layers, neurons and activation functions.  \
+**AlphabetSoupCharity_Optimization_final.ipynb** - This jupyter notebook was used to attempt to use deep learning and neural networks to evaluate whether applicants would be funded by the non-profit organization Alphabet Soup after only dropping the "EIN" column in the model but keeping the "NAME" column. This particular model was able to achieve the target predictive accuracy of above 75% and with a final accuracy of 79.94%.  \
+**output_data/AlphabetSoupCharity_Attempt_1.h5** - exported HDF5 file of results from attempt 1 of training the model in the "AlphabetSoupCharity_Optimization.ipynb" jupyter notebook.  \
+**output_data/AlphabetSoupCharity_Attempt_2.h5** - exported HDF5 file of results from attempt 2 of training the model in the "AlphabetSoupCharity_Optimization.ipynb" jupyter notebook after removing the "EIN" and "NAME" columns from the model.  \
+**output_data/AlphabetSoupCharity_Attempt_3.h5** - exported HDF5 file of results from attempt 3 of training the model in the "AlphabetSoupCharity_Optimization.ipynb" jupyter notebook after removing the "EIN" and "NAME" columns from the model.  \
+**output_data/AlphabetSoupCharity_Attempt_4.h5** - exported HDF5 file of results from attempt 4 of training the model in the "AlphabetSoupCharity_Optimization.ipynb" jupyter notebook after removing the "EIN" and "NAME" columns from the model.  \
+**output_data/AlphabetSoupCharity_Attempt_5.h5** - exported HDF5 file of results from attempt 5 of training the model in the "AlphabetSoupCharity_Optimization.ipynb" jupyter notebook after removing the "EIN" and "NAME" columns from the model.  \
+**output_data/AlphabetSoupCharity_Attempt_6.h5** - exported HDF5 file of results from attempt 6 of training the model in the "AlphabetSoupCharity_Optimization.ipynb" jupyter notebook after removing the "EIN" and "NAME" columns from the model.  \
+**output_data/AlphabetSoupCharity_Final.h5** - exported HDF5 file of results of training the model in the "AlphabetSoupCharity_Optimization-Final.ipynb" jupyter notebook after removing the "EIN" column from the model but keeping the "NAME" column. These final results achieved the target predictive accuracy of above 75%.  \
 
 ## **Sources:**
 - The basis for the code used in the "Drop the non-beneficial ID columns, 'EIN' and 'NAME'" section of both jupyter notebooks was found from https://blog.hubspot.com/website/drop-multiple-columns-pandas
