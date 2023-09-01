@@ -94,6 +94,8 @@ Now that you're finished with your analysis in Google Colab, you need to get you
 - ANSWER: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 
 ## **Files:**
+**README.md** - This readme file.
+**Report.rtf** - This file contains our report from "Step 4: Write a Report on the Neural Network Model".
 **AlphabetSoupCharity_Optimization.ipynb** - This is the jupyter notebook used to attempt to use deep learning and neural networks to evaluate whether applicants would be funded by the non-profit organization Alphabet Soup. This is doing so while dropping the "EIN" and "NAME" columns from the model. This particular model was only able to achieve a maximum target predictive accuracy of 74.01% across 6 attempts using various combinations of the number of hidden layers, neurons and activation functions  
 **AlphabetSoupCharity_Optimization_final.ipynb** - This jupyter notebook was used to attempt to use deep learning and neural networks to evaluate whether applicants would be funded by the non-profit organization Alphabet Soup after only dropping the "EIN" column in the model but keeping the "NAME" column. This particular model was able to achieve the target predictive accuracy of above 75% and with a final accuracy of 79.94%.  
 **output_data/AlphabetSoupCharity_Attempt_1.h5** - exported HDF5 file of results from attempt 1 of training the model in the "AlphabetSoupCharity_Optimization.ipynb" jupyter notebook.
