@@ -11,8 +11,9 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 - **INCOME_AMT**—Income classification
 - **SPECIAL_CONSIDERATIONS**—Special considerations for application
 - **ASK_AMT**—Funding amount requested
-- **IS_SUCCESSFUL**—Was the money used effectively  
+- **IS_SUCCESSFUL**—Was the money used effectively
 
+## **Instructions**
 ### **Step 1: Preprocess the Data**
 1. Read in the charity_data.csv to a Pandas DataFrame, and be sure to identify the following in your dataset:
 	- What variable(s) are the target(s) for your model?
